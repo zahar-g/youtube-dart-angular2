@@ -1,5 +1,5 @@
 Application is automatically deploying on heroku.
-Demo url: https://youtube-angular2-dart.herokuapp.com
+Demo url: https://youtube-dart-angular2.herokuapp.com
 
 To run locally - first install Dart SDK. Then run commands:
 

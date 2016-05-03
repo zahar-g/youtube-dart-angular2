@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>youtube_dart_angular2</title>
+    <title>Youtube API test app</title>
+    <base href="/">   <!-- For testing using pub serve directly -->
+    <!-- base href="/dart/web/" --> <!-- For testing in WebStorm -->
+
+    <!--suppress HtmlUnknownTarget -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     <script defer src="main.dart" type="application/dart"></script>
     <script defer src="packages/browser/dart.js"></script>
+
+    <!-- include the javascript -->
+    <!--suppress HtmlUnknownTarget -->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <!--suppress HtmlUnknownTarget -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
   </head>
   <body>
     <my-app>Loading...</my-app>
