@@ -1,0 +1,16 @@
+{
+  "name": "youtube-angular2-dart",
+  "version": "0.0.1",
+  "description"  : "Youtube - Angular2 + Dart",
+  "main"         : "app_component.dart",
+  "author"       : "zahar-g",
+  "private": true,
+  "scripts": {
+    "start": "dart app_component.dart"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "dart": "1.17"
+  }
+}
